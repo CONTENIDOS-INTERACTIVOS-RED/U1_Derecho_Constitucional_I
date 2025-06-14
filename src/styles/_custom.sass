@@ -21,15 +21,43 @@
   &-2
     background-color: #4A5641
   &-3
-    background-color: #F0E9F6
+    background-color: #F9E3D4
   &-4
-    background-color: #EAF8FD
+    color: #4A5641 !important
+  &-5
+    background-color: #EAE4DC
+  &-6
+    background-color: #D2E7F2
+  &-7
+    background-color: #BCA78F
+  &-8
+    background-color: #CFD7C8
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
+////////////////FONDO COMPLETO CON POSICION/////////////////
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 90%
+    transform: translateY(-0%)
+    background-color: #F9E3D4
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      height: 100%
+      bottom: 0
 
 .border-top
   &.color-primario
@@ -54,7 +82,7 @@
     background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.svg") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -209,16 +237,7 @@ $custom-card-img-height: 322px
     font-size: 1rem !important
   a
     text-decoration: none
-    color: $color-sistema-texto
-
-
-
-.lista-ul--color li > i:first-of-type
-  color: #453179 !important
-
-.lista-ul--color.color-dark li > i:first-of-type
-  color: #453179 !important
-          
+    color: $color-sistema-texto  
 
 th.bg-color-tabla
   background-color: #453179 !important
