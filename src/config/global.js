@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '1',
-    tituloUnidad: 'Unidad 1. Historia del constitucionalismo colombiano',
+    tituloUnidad: 'Historia del constitucionalismo colombiano',
   },
   menuPrincipal: {
     menu: [
