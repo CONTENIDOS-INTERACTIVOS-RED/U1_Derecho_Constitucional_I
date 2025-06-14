@@ -241,10 +241,6 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/69371?page=58 " target="_blank" rel="noopener noreferrer") Arias Trujillo, R. (2011). Historia de Colombia contemporánea (1920-2010). Universidad de los Andes. 
-            
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-24562018000200035  " target="_blank" rel="noopener noreferrer") AFANADOR-LLACH, MARÍA JOSÉ. (2018). Una república colosal: la unión de Colombia, el acceso al Pacífico y la utopía del comercio global, 1819-1830. Anuario Colombiano de Historia Social y de la Cultura, 45(2), 35-63. 
 
             p.d-flex.my-4
