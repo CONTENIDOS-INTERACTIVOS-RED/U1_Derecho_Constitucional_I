@@ -204,10 +204,6 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="" target="_blank" rel="noopener noreferrer") Alarcón Núñez, Ó. (2010). Panamá, capital de Colombia: historias de una propuesta. Editorial Politécnico Grancolombiano. 
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/ereader/tecnologicadeloriente/70552?page=240 " target="_blank" rel="noopener noreferrer") Otero-Cleves, A. M. & Malagón Pinzón, M. A. (2015). Tratados y manuales jurídicos del período radical: análisis de la segunda mitad del siglo XIX colombiano. Universidad de los Andes. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")

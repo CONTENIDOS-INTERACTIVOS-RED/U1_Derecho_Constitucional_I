@@ -107,7 +107,7 @@
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema1/11.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Control del poder militar
-                p.text-center Control del poder militar
+                p.text-center Subordinación del ejercito al poder civil.
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema1/12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Identidad territorial
